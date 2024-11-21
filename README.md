@@ -31,6 +31,7 @@ To acquire $ASPL for testing on the Arbitrum network, you can follow these steps
 1.Acquire $ETH on L1 Sepolia:
 
 Use a faucet to get Sepolia $ETH on the Ethereum Sepolia Testnet. You can use the Sepolia Faucet to acquire testnet $ETH on Ethereum's L1 [Sepolia network](https://cloud.google.com/application/web3/faucet/ethereum/sepolia).
+
 2.Bridge $ETH from L1 Sepolia to Arbitrum L2:
 
 After acquiring the Sepolia $ETH on L1, use the Arbitrum Bridge to move your $ETH from Ethereum’s L1 Sepolia network to Arbitrum's L2 Sepolia network.
