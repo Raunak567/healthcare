@@ -53,7 +53,7 @@ yarn add hardhat @nomicfoundation/hardhat-toolbox -D
 ```
 3. Set up your contract:
 
-Update the contractAddress in the code with the deployed contract address on Arbitrum. Ensure the contract has been deployed to Arbitrum One.
+* Update the contractAddress in the code with the deployed contract address on Arbitrum.
 
 4. Deploy the contract (if not already deployed):
 
