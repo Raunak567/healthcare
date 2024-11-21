@@ -1,4 +1,4 @@
-# Healthcare DApp on Arbitrum
+<h1 align="center"> Healthcare DApp on Arbitrum </h1>
 
 <h3 align="center"> Live application of my project: https://healthcare-dapp.netlify.app/ </h3>
 
