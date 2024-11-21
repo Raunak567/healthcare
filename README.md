@@ -70,7 +70,7 @@ const SEPOLIA_TESTNET_PRIVATE_KEY = '';
 
 * NOTE: Since I have already deployed this smart contract, you don't need to deploy it again. Here is the link to my deployed smart contract on the [Arbitrum Sepolia testnet](https://sepolia.arbiscan.io/address/0x9adBa728D920e8A6295C73CC55510401Da2A05E7).
 
-5.Start the frontend:
+5. Start the frontend:
 ```
 npm run start
 ```
@@ -78,7 +78,7 @@ npm run start
 
 ## Usage
 
-1.Connect your wallet:
+1. Connect your wallet:
 
 * Make sure your Metamask wallet is connected to the Arbitrum network.
 * Click on the "Connect Wallet" button to link your wallet to the application.
@@ -109,17 +109,17 @@ We welcome contributions to improve the DApp! If you have any suggestions or fin
 
 Steps to Contribute:
 
-1.Fork the repository.
+1. Fork the repository.
 
-2.Create a new branch ```(git checkout -b feature/your-feature-name)```.
+2. Create a new branch ```(git checkout -b feature/your-feature-name)```.
 
-3.Make your changes.
+3. Make your changes.
 
-4.Commit your changes ```(git commit -am 'Add new feature')```.
+4. Commit your changes ```(git commit -am 'Add new feature')```.
 
-5.Push to your branch ```(git push origin feature/your-feature-name)```.
+5. Push to your branch ```(git push origin feature/your-feature-name)```.
 
-6.Create a new pull request.
+6. Create a new pull request.
 
 ### Acknowledgements
 * Arbitrum: For providing a fast and low-cost layer-2 solution for Ethereum.
