@@ -52,6 +52,7 @@ yarn add hardhat @nomicfoundation/hardhat-toolbox -D
 3. Set up your contract:
 
 Update the contractAddress in the code with the deployed contract address on Arbitrum. Ensure the contract has been deployed to Arbitrum One.
+
 4. Deploy the contract (if not already deployed):
 
 If you haven't deployed the contract yet, you can use Hardhat to deploy it to the Arbitrum network:
@@ -59,6 +60,8 @@ If you haven't deployed the contract yet, you can use Hardhat to deploy it to th
 yarn hardhat run scripts/deploy.js --network arbitrumSepolia
 ```
 #### Replace the deployed contract address in Healthcare.js on line 18.
+
+Also You have to chaNGE the env file to enter the private key.
 
 * NOTE: Since I have already deployed this smart contract, you don't need to deploy it again. Here is the link to my deployed smart contract on the [Arbitrum Sepolia testnet](https://sepolia.arbiscan.io/address/0x9adBa728D920e8A6295C73CC55510401Da2A05E7).
 
