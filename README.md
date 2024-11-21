@@ -109,17 +109,17 @@ We welcome contributions to improve the DApp! If you have any suggestions or fin
 
 Steps to Contribute:
 
-Fork the repository.
+1.Fork the repository.
 
-Create a new branch ```(git checkout -b feature/your-feature-name)```.
+2.Create a new branch ```(git checkout -b feature/your-feature-name)```.
 
-Make your changes.
+3.Make your changes.
 
-Commit your changes ```(git commit -am 'Add new feature')```.
+4.Commit your changes ```(git commit -am 'Add new feature')```.
 
-Push to your branch ```(git push origin feature/your-feature-name)```.
+5.Push to your branch ```(git push origin feature/your-feature-name)```.
 
-Create a new pull request.
+6.Create a new pull request.
 
 ### Acknowledgements
 * Arbitrum: For providing a fast and low-cost layer-2 solution for Ethereum.
