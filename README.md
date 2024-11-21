@@ -108,11 +108,17 @@ You can interact with this contract through the provided frontend, or directly v
 We welcome contributions to improve the DApp! If you have any suggestions or find bugs, feel free to open an issue or submit a pull request.
 
 Steps to Contribute:
+
 Fork the repository.
+
 Create a new branch ```(git checkout -b feature/your-feature-name)```.
+
 Make your changes.
+
 Commit your changes ```(git commit -am 'Add new feature')```.
+
 Push to your branch ```(git push origin feature/your-feature-name)```.
+
 Create a new pull request.
 
 ### Acknowledgements
