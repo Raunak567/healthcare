@@ -1,5 +1,7 @@
 # Healthcare DApp on Arbitrum
 
+<h3 align="center"> Live application of my project: https://healthcare-dapp.netlify.app/ </h3>
+
 This is a decentralized healthcare application (DApp) built on the Arbitrum blockchain. It allows users to manage healthcare records in a secure and transparent manner, leveraging the benefits of blockchain technology. The app integrates with a smart contract to store and manage patient data, including medical records, diagnosis, treatment, and authorization of healthcare providers.
 
 ## Features
@@ -61,7 +63,10 @@ yarn hardhat run scripts/deploy.js --network arbitrumSepolia
 ```
 #### Replace the deployed contract address in Healthcare.js on line 18.
 
-Also You have to chaNGE the env file to enter the private key.
+Also, you need to change the ```hardhat.config.js``` file to enter your private key.
+```
+const SEPOLIA_TESTNET_PRIVATE_KEY = '';
+```
 
 * NOTE: Since I have already deployed this smart contract, you don't need to deploy it again. Here is the link to my deployed smart contract on the [Arbitrum Sepolia testnet](https://sepolia.arbiscan.io/address/0x9adBa728D920e8A6295C73CC55510401Da2A05E7).
 
@@ -69,4 +74,48 @@ Also You have to chaNGE the env file to enter the private key.
 ```
 npm run start
 ```
-### This will start a local development server, typically accessible at http://localhost:3000.
+### This will start a local development server, typically accessible at ```http://localhost:3000.```
+
+## Usage
+
+1.Connect your wallet:
+
+* Make sure your Metamask wallet is connected to the Arbitrum network.
+* Click on the "Connect Wallet" button to link your wallet to the application.
+* View and Add Patient Records:
+
+2. Use the input forms to enter a patientID, diagnosis, and treatment.
+* Click "Add Record" to add a new record to the blockchain.
+* Use the "Fetch Records" button to retrieve and display patient records.
+
+3. Authorize Healthcare Providers:
+
+* As the contract owner, you can authorize healthcare providers by entering their wallet address and clicking the "Authorize Provider" button.
+## Smart Contract Functions
+* ```addRecord(patientID, patientName, diagnosis, treatment)```: Adds a new patient record to the blockchain.
+* ```getPatientRecords(patientID)```: Retrieves the list of records for a given patient ID.
+* ```authorizeProvider(provider)```: Authorizes a healthcare provider to manage records.
+* ```getOwner()```: Returns the address of the contract owner.
+
+### Contract Deployment
+The contract has been deployed to the Arbitrum network. The smart contract address is:
+
+Contract Address: 0x9adBa728D920e8A6295C73CC55510401Da2A05E7
+
+You can interact with this contract through the provided frontend, or directly via other Ethereum-compatible tools like Etherscan or Remix.
+
+### Contributing
+We welcome contributions to improve the DApp! If you have any suggestions or find bugs, feel free to open an issue or submit a pull request.
+
+Steps to Contribute:
+Fork the repository.
+Create a new branch ```(git checkout -b feature/your-feature-name)```.
+Make your changes.
+Commit your changes ```(git commit -am 'Add new feature')```.
+Push to your branch ```(git push origin feature/your-feature-name)```.
+Create a new pull request.
+
+### Acknowledgements
+* Arbitrum: For providing a fast and low-cost layer-2 solution for Ethereum.
+* Ethers.js: A library for interacting with the Ethereum blockchain.
+* React: For building the frontend user interface.
