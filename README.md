@@ -22,12 +22,8 @@ Before running this DApp, make sure you have the following:
 * Node.js: A version of Node.js installed on your system. (Recommended: Node.js 16.x or later)
 
 ### Arbitrum Network Setup: Make sure your Metamask wallet is connected to the Arbitrum network. 
-#### You can add Arbitrum to Metamask using the following settings:
-* Network Name: ```Arbitrum Sepolia```
-* RPC URL: ```sepolia-rollup.arbitrum.io/rpc```
-* Chain ID: ```421614```
-* Currency Symbol: ```ETH```
-* Block Explorer URL: ```sepolia.arbiscan.io```
+
+#### You can add Arbitrum Sepolia to Metamask using the following Link: [Chainlist](https://chainlist.org/chain/421614)
 
 ## Acquiring $ASPL on Arbitrum
 To acquire $ASPL for testing on the Arbitrum network, you can follow these steps:
